@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a welcome message when signed out 1`] = `
+<div>
+  <main
+    class="container"
+  >
+    <header>
+      <h1>
+        Library Catalog
+      </h1>
+    </header>
+    <h2>
+      Welcome to the Library!
+    </h2>
+    <div>
+      <span>
+        Check out the 
+      </span>
+      <a
+        href="/books"
+      >
+        Selection
+      </a>
+    </div>
+  </main>
+</div>
+`;

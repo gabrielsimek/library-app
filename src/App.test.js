@@ -9,7 +9,7 @@ it('renders a welcome message when signed out', async () => {
     </MemoryRouter>
   );
 
-  await screen.findByRole('list', { name: 'book list' });
+  screen.getByText('Library Catalog');
 
   expect(container).toMatchSnapshot();
 });
