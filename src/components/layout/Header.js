@@ -1,7 +1,7 @@
-import { Link } from 'react-router-dom'
-import logo from '../../assets/kick-off.png'
-import { signOutUser } from '../../services/users'
-import './Header.css'
+import { Link } from 'react-router-dom';
+import logo from '../../assets/kick-off.png';
+import { signOutUser } from '../../services/users';
+import './Header.css';
 
 function Header({ user, setCurrentUser }) {
   return (
@@ -36,7 +36,7 @@ function Header({ user, setCurrentUser }) {
         </nav>
       </section>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
